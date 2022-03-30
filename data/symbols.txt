@@ -1,0 +1,3 @@
+^IXIC
+AAPL
+MSFT

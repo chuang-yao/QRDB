@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome!</title>
+</head>
+<body>
+<h3>Example URLs</h3>
+        <a href="http://127.0.0.1:5000/api/stocks/AAPL?field=Adj%20Close&date.beg=2022-01-03">
+            valid price query: AAPL closing price on 2022-01-03</a><br>
+        <a href="http://127.0.0.1:5000/api/stocks/AAPL?field=Adj%20Close&date.beg=2022-01-03&date.end=2022-02-03">
+            valid price query: AAPL closing prices between 2022-01-03 to 2022-02-03</a><br>
+        <a href="http://127.0.0.1:5000/api/stocks/INTC?field=Adj%20Close&date.beg=2022-01-03">
+            invalid price query: INTC closing price on 2022-01-03</a><br>
+        <a href="http://127.0.0.1:5000/api/users/10003">user query</a><br>
+        <a href="http://127.0.0.1:5000/api/trades/00001">trade query</a><br>
+</body>
+</html>
